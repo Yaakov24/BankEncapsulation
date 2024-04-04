@@ -5,9 +5,16 @@
 
         static void Main(string[] args)
         {
+            
+
             BankAccount account = new BankAccount();
-            account.Deposit(3543.65);
+            account.Deposit();
             account.GetBalance();
+            account.Withdraw();
+
+            
+
+           
         }
     }
 }
